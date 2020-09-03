@@ -13,6 +13,6 @@ def sumEvenOdd(numArr):
       
     evenOddArr.append(even)
     evenOddArr.append(odd)
-    print(f"Array containing sum of even and odd number => {evenOddArr}")
+    print(f"Sum of even and odd number in Array => {evenOddArr}")
      
 sumEvenOdd(numArr)
