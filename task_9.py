@@ -1,5 +1,6 @@
-def palindromeChecker(s):
-    return s == s[::-1]
+def palindromeChecker(checkString):
+    #reversing the input string
+    return checkString == checkString[::-1]
 
 checkPalindromeWord = "madam"
 isPalindrome = palindromeChecker(checkPalindromeWord)

@@ -14,10 +14,10 @@ def variance(a, arrayLen):
   
     # Compute sum squared  
     # differences with mean. 
-    sqDiff = 0
+    squareDifference = 0
     for i in range(0 ,arrayLen): 
-        sqDiff += ((a[i] - mean)  * (a[i] - mean)) 
-    return sqDiff / arrayLen 
+        squareDifference += ((a[i] - mean)  * (a[i] - mean)) 
+    return squareDifference / arrayLen 
   
   
 def standardDeviation(arr, arrayLen): 

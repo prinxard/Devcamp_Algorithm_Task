@@ -1,6 +1,6 @@
 
-def replaceString(s):
-    strArr = list(s)
+def replaceString(checkString):
+    strArr = list(checkString)
     for i, c in enumerate(strArr):
         if c == ' ': strArr[i] = '%20'
     return ''.join(strArr)

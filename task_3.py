@@ -1,10 +1,23 @@
 
-numArr = [1, 2, 3, 4, 5, 6]
+def count_primes_in_list(numbers):
+    primes = []
 
-def sumEvenOdd(numArr):
-    for i in numArr:
-        num = i
-    for x in range(2, num):
-            print(f"{x} {num}")
+    for num in numbers:
+        if num == 2:
+            primes.append(num)
+        else:
+            is_prime = True
+            for i in range(2, num):
+                if num % i == 0:
+                    is_prime = False
+                    break
 
-sumEvenOdd(numArr)
+            if is_prime:
+                print(num)
+                primes.append(num)
+
+    return len(primes)
+
+
+z = [4, 5, 6, 7, 8, 9, 10, 11, 13, 21, 12]
+print(count_primes_in_list(z))
