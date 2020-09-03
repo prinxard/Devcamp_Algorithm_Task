@@ -1,5 +1,5 @@
-primeList = [4, 5, 6, 7, 8, 9, 10, 11, 13, 21, 12]
-def count_primes_in_list(numbers):
+numberList = [2, 4, 5, 6, 7, 8, 9, 10, 11, 13, 21, 12]
+def showPrimes(numbers):
     primes = []
 
     for num in numbers:
@@ -19,4 +19,4 @@ def count_primes_in_list(numbers):
     return len(primes)
 
 
-print(count_primes_in_list(primeList))
+print(showPrimes(numberList))
