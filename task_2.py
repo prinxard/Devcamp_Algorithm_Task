@@ -1,8 +1,10 @@
-def test_prime(n):
+def numIsPrime(n):
     if (n == 1):
         return False
     elif (n == 2):
         return True
+    elif (n == 0):
+        return "Number must be greater than 0"
     else:
         for x in range(2, n):
             if(n % x == 0):
@@ -10,6 +12,6 @@ def test_prime(n):
         return True
 
 
-print(test_prime(78))
+print(numIsPrime(9))
         
     

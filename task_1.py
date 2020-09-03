@@ -7,10 +7,8 @@ def sumEvenOdd(numArr):
 
     for i in numArr:
         if i % 2 == 0:
-            # print(i)
             even += i
         else:
-            # print(i)
             odd += i 
       
     evenOddArr.append(even)
