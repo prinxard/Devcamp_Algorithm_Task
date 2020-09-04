@@ -5,7 +5,6 @@
 #     if sum(numbers) == target:
 #         print([integer_array[number] for number in numbers])
 
-
 target = 12
 nums = [2, 8, 4, 7, 9, 5, 1]
 def indices_sum(nums, target):
