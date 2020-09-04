@@ -1,7 +1,6 @@
-numberList = [2, 4, 5, 6, 7, 8, 9, 10, 11, 13, 21, 12]
-def showPrimes(numbers):
-    primes = []
-
+numberList = [4, 5, 6, 7, 8, 9, 10, 11, 13, 21,12]
+primes = []
+def showPrimes(numbers):  
     for num in numbers:
         if num == 2:
             primes.append(num)
@@ -13,8 +12,8 @@ def showPrimes(numbers):
                     break
 
             if is_prime:
-                print(num)
                 primes.append(num)
+                print(num)
 
     return len(primes)
 
