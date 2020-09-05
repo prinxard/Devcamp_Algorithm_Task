@@ -12,6 +12,5 @@ def indices_sum(nums, target):
         for j in range(i + 1, len(nums)):
             for k in range(i+2, len(nums)):
                 if nums[i]+nums[j]+nums[k] == target:
-                    return [nums[i], nums[j], nums[k]]
-                
+                    return [nums[i], nums[j], nums[k]]    
 print (indices_sum(nums, target))

@@ -1,5 +1,5 @@
 
-checkString = "testsringsesesee"
+checkString = "testsringsesesewwwwwwwwyyyyyyyy"
 all_freq = {}
 def maximumString(checkString):
     for i in checkString: 
